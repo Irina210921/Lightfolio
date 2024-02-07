@@ -24,6 +24,7 @@ header{
 .wrapper{
     max-width: 1248px;
     margin:auto;
+
 }
 header nav ul{
     display: flex;
@@ -231,5 +232,53 @@ footer_p{
     margin-left: 33px;
     text-decoration: none;
 
+}
+.about_my{
+    padding: 132px 0;
+}
+.about_my .ui-accordion .ui-accordion-header{
+    background-color: transparent;
+    border-radius: 18px;
+    border: solid black 1px;
+    padding: 15px 10px;
+    color: black;
+    position: relative;
+}
+.about_my .ui-accordion .ui-accordion-content{
+    background-color: #FFEBD8;
+    border: solid black 1px;
+    border-radius: 0 0 18px 18px;
+    border-top: none;
+}
+
+
+.about_my .ui-accordion .ui-accordion-header.ui-state-active {
+    background-color: #FFEBD8;
+    border-bottom: none;
+    border-radius: 18px 18px 0 0;
+
+}
+.about_my .ui-accordion .ui-accordion-header .ui-icon{
+    background-image: none;
+}
+.about_my .ui-accordion .ui-accordion-header-active.ui-state-active .ui-icon {
+    background-image: url("../img/arrow-thin-chevron-top-icon.svg");
+}
+.about_my .ui-accordion .ui-accordion-header .ui-icon {
+    background-image: url("../img/arrow-thin-chevron-bottom-icon.svg");
+    position: absolute;
+    top: 50%;
+    margin-top: -16px;
+    right: 44px;
+    height: 16px;
+    width: 16px;
+    color: #000;
+}
+.ui-icon-triangle-1-e{
+background-position: 0px;
+}
+
+.ui-icon-triangle-1-s {
+    background-position: 0;
 }
 
